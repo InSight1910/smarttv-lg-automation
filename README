@@ -1,0 +1,2 @@
+docker build -t lg .
+docker run --network host -v ./data:/data --env-file .env lg
